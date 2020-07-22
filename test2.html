@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./test_css.css" />
+</head>
+<body>
+    <form action="#" method="POST">
+      <h1 class="SingUp">회원 가입</h1>
+        <label for="userid_input">이메일</label>
+        <input 
+          id="userid_input"
+          name="userid"
+          placeholder="아이디를 입력해주세요" 
+          type="text" 
+        />
+        <br />
+        <br />
+        <label for="userpw_input">비밀번호</label>
+        <input
+          id="userpw_input"
+          name="userpw"
+          placeholder="비밀번호를 입력해주세요"
+          type="password"
+        />
+        <br />
+        <br />
+        <label for="userpw_q">비밀번호 질문</label>
+        <select id="userpw_q" name="비밀번호 질문">
+          <option value="태어난 곳?">어디서 태어났는가?</option>
+          <option value="초등학교?">다녔던 초등학교는?</option>
+          <option value="동물?">좋아하는 동물은?</option>
+          <option value="취미?">취미는?</option>        
+          <input
+          type="text"
+          placeholder="너의 답을 적어줘"
+          />
+        </select>
+        <br />
+        <br />
+        <button name='등록' type='submit'>등록하기</button>
+        <br />
+        <h2>자기소개</h2>
+        <textarea name='content' cols='50' rows='20'>기존 문장을 지우고 자기소개를 하시면 됩니다.</textarea>
+        
+      </form>
+    </body>
+</html>
