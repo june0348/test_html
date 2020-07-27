@@ -1,0 +1,45 @@
+.flex_box {
+    /* margin -left와 -top으로 위치 고정 */
+    /* margin-left: 30vw;
+    margin-top: 0vh; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 1000px;
+    height: 500px;
+    /* border: 3px solid lightcoral; */
+}
+
+.box_container1 {
+    /* border: 3px solid lightcoral; */
+    width: 55%;   
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box_container2 {
+    width:  55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_container3 {
+    width: 55%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.box{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    border-radius: 5px;
+}
